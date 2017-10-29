@@ -1,0 +1,48 @@
+﻿Informații cu privire la Catagrafia bisericilor din București în anul 1810.
+
+============================================================================================================
+
+Datele se referă la situația celor 89 de biserici din București, așa cum a fost înregistrată în Catagrafia Mitropoliei Ungrovlahiei din anul 1810, scoasă din condica-manuscris a Bibliotecii Academiei Române nr. 1457 și publicată de Alex. Lepădatu în revista Biserica Ortodoxă Română - numerele 5, 6, 8 și 9 - în anul 1907. Datele extrase în mod semi-automat din catagrafie au fost prelucrate și curățate folosind LibreOffice Calc și QGIS 2.18.6, în formatele .ods și .geojson.
+Pentru utilizare generală, ele au fost convertite în format comma separated values (valori separate de virgulă), cu codificare UTF-8.
+Acestea pot fi folosite liber, cu precizarea sursei arhivei.
+
+
+Fișiere:
+---------
+biserici_1810.csv
+readme.txt
+
+Fișierul biserici_1810.csv are următoarele cîmpuri.
+---------------------------------------------------
+id		    : cheie primară 
+nume		: numele bisericii, așa cum apare în catagrafia din 1810
+nume_act	: numele sub care este cunoscută biserica în prezent
+an_inf		: anul înființării sau, acolo unde nu se cunoaște, a primei atestări a bisericii
+an_disp		: anul dispariției sau mutării bisericii (se citește împreună cu câmpul "stare")
+hram		: hramul bisericii, așa cum apare în catagrafia din 1810
+stare		: starea actuală a bisericii
+id_bis		: cheie străină, reprezentînd ordinea bisericilor în catagrafie; planificat pentru utilizare cu alte seturi de date în viitor
+mahala		: numele mahalalei unde se afla biserica
+nr_case		: numărul caselor din mahala
+nr_b		: numărul de bărbați din mahala
+nr_f		: numărul de femei din mahala
+nr_tot		: numărul total al bărbaților și femeilor din mahala
+tip		    : materialul de construcție al bisericii
+info		: alte informații cu privire la biserică, așa cum apar în catagrafie
+nr_preoți	: numărul preoților slujitori
+nr_diaconi	: numărul diaconilor slujitori
+
+
+Harta web:
+----------
+
+Pe baza datelor, a fost creată o hartă web interactivă folosind librăria Leaflet (http://leafletjs.com) cu plugin-ul Easy-Button și librăria D3.js (https://d3js.org).
+Aceasta a fost realizată în anul 2017 de către: Cezar Buterez (coordonator), Andrei-Rafael Gruia, Florentina-Vasilica Alexe, Eugen Grama, din cadrul Facultății de Geografie, Universitatea din București.
+
+
+Contact:
+--------
+
+Pentru întrebări, semnalări de probleme sau sugestii privind materialul cartografic ori datele cuprinse în acesta, puteți lăsa cîteva rînduri la adresa: cezarb@geo.unibuc.ro.
+
+
